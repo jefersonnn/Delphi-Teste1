@@ -11,9 +11,11 @@ type
     Button1: TButton;
     Button2: TButton;
     Button3: TButton;
+    Button4: TButton;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
     procedure Button3Click(Sender: TObject);
+    procedure Button4Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -40,6 +42,11 @@ end;
 procedure TForm1.Button3Click(Sender: TObject);
 begin
   Showmessage('teste 3');
+end;
+
+procedure TForm1.Button4Click(Sender: TObject);
+begin
+  Showmessage('Teste 4');
 end;
 
 end.
